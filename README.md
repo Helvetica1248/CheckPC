@@ -2,40 +2,60 @@
 
 CheckPC が収集した Windows 初動調査データ（CAB/TXT）を、ローカル LLM と決定論的ルールで解析し、ホスト単位のレポート、横断相関、タイムライン、解析結果チャットを生成するパイプラインです。
 
-**v3.71 は 2026-09-28 に正式リリース完了としました。** 実装系譜は `v3.70 rev14-formal` → `v3.71-rc1 ... rc16` で、正式版は最終候補 `v3.71-rc16` を基準にしています。
+**v3.71 は 2026-09-28 に正式リリース完了としました。** 実装系譜は `v3.70 rev14-formal` → `v3.71-rc1 ... rc16` で、正式版は最終 candidate `v3.71-rc16` を基準にしています。
 
 ## リポジトリ構成
 
-- `DESIGN.md` — v3.71の現行設計と安全境界
-- `CHANGELOG.md` — v3.71正式化と主要変更履歴
+- `DESIGN.md` — v3.71 の現行設計と安全境界
+- `CHANGELOG.md` — v3.71 正式化と主要変更履歴
+- `INSTALL.md` — 配置・更新の入口
 - `docs/releases/v3.71/RELEASE_NOTES.md` — 正式リリース記録
-- `docs/operations/CheckPC_汎用バージョンアップ手順書_v1.0.md` — stable symlink方式の更新手順
-- `docs/operations/GUI_USER_GUIDE.md` — GUI利用ガイド
-- `artifacts/checkpc_v3.71_source.tar.xz` — v3.71-rc16候補一式を原形保存したsource bundle
+- `docs/releases/v3.71/SOURCE_DELTA.md` — v3.70 rev14-formal からの主要 source delta
+- `docs/releases/v3.71/CANDIDATE_SHA256.txt` — 基準 candidate 配布 ZIP の SHA-256
+- `docs/releases/v3.71/v3.71-rc16_変更概要.md` — rc16 限定修正の一次整理
+- `docs/releases/v3.71/v3.71-rc16_実装・検証結果_20260824.md` — rc16 focused 検証記録
+- `docs/operations/CheckPC_汎用バージョンアップ手順書_v1.0.md` — stable symlink 方式の更新手順
+- `docs/operations/GUI_USER_GUIDE.md` — GUI 利用ガイド
 
-## v3.71の主要変更
+## v3.71 の主要変更
 
-v3.71では解析本体よりも、解析結果チャットのThreat Intelligence境界を重点的に再設計しました。
+v3.71 では解析本体よりも、解析結果チャットの Threat Intelligence 境界を重点的に再設計しました。
 
-- LLM公開toolを `investigate_local` と `vt_ioc_lookup` に集約
-- 案件scope、mixed-version normalization、coverage、distinct-host prevalenceをPython側で決定
-- raw Directory等の巨大証拠をbounded search / SQLite indexで扱い、初回チャットで案件全台を同期index化しない
-- VirusTotal等の外部TI送信は、current turnで明示肯定されたIOCだけをauthorize
-- 否定文、混在directive、複数IOC、英語comma境界、日本語「～するのはやめて」「～してほしくない」等をfail-closed化
-- parser / analyze / correlate / Depth1/2 / comparison / provenanceはv3.70 rev14-formalを基準に維持
+- LLM 公開 tool を `investigate_local` と `vt_ioc_lookup` に集約
+- 案件 scope、mixed-version normalization、coverage、distinct-host prevalence を Python 側で決定
+- raw Directory 等の巨大証拠を bounded search / SQLite index で扱い、初回チャットで案件全台を同期 index 化しない
+- VirusTotal 等の外部 TI 送信は、current turn で明示肯定された IOC だけを authorize
+- 否定文、混在 directive、複数 IOC、英語 comma 境界、日本語「～するのはやめて」「～してほしくない」等を fail-closed 化
+- parser / analyze / correlate / Depth1/2 / comparison / provenance は v3.70 rev14-formal を基準に維持
 
-## 正式版とrc16 candidateについて
+## 正式版と rc16 candidate について
 
-source bundleは、正式昇格前に固定したcandidate packageの**原形保存**です。そのため内部の `version.py` / `release_manifest.json` / `TEST_RESULTS.md` には当時の `validation-pending` が残っています。GitHub取り込み時にこれらを改変するとcandidate packageのSHA・manifest・監査証跡を壊すため、書き換えていません。
+v3.71 正式版は rc16 candidate を基準にしています。
 
-正式リリース状態とcandidate snapshotの関係は `docs/releases/v3.71/RELEASE_NOTES.md` に記録しています。
+rc16 は正式昇格前に固定された candidate なので、配布物内部の `version.py` / `release_manifest.json` / 検証資料には当時の `validation-pending` が残っています。これらを GitHub 取り込み時に書き換えると candidate package の SHA・manifest・監査証跡を壊すため、書き換えません。
+
+正式リリース状態と candidate metadata の関係は `docs/releases/v3.71/RELEASE_NOTES.md` に記録しています。
+
+## 配布物の完全性
+
+基準 candidate ZIP:
+
+```text
+checkpc_pipeline_v3.71-rc16_20260824.zip
+SHA-256:
+2d35411c7c0e7715fa63bfe15350152f5289c6580890d9ef86f4b30ea8f22227
+```
+
+GitHub 取り込み前に clean extraction で package manifest と focused regression を再確認し、460 / 460 PASS を確認しています。
+
+> GitHub 連携経由ではバイナリ配布 ZIP を repository commit に直接取り込めないため、この repository には正式版ドキュメントと candidate の provenance / SHA を格納し、配布 ZIP 自体の hash を固定しています。candidate 配布 ZIP の内容を正式化のために再生成・後編集はしていません。
 
 ## セキュリティ方針
 
-- 取りこぼし防止を優先し、LLMだけで最終判定しない
-- 証拠、追加context、tool resultは非信頼入力として境界化
-- 外部TI送信は明示許可されたIOCだけを対象とし、曖昧な自然言語はfail-closed
-- 秘密値・認証情報・TLS鍵・VT API key・proxy認証情報はパッケージ外のEnvironmentFileで管理
-- 正式更新はコードとEnvironmentFileをstable symlinkでセット切替し、rollback可能性を維持
+- 取りこぼし防止を優先し、LLM だけで最終判定しない
+- 証拠、追加 context、tool result は非信頼入力として境界化
+- 外部 TI 送信は明示許可された IOC だけを対象とし、曖昧な自然言語は fail-closed
+- 秘密値・認証情報・TLS 鍵・VT API key・proxy 認証情報は package / repository 外の EnvironmentFile で管理
+- 正式更新はコードと EnvironmentFile を stable symlink でセット切替し、rollback 可能性を維持
 
 詳細は `DESIGN.md` と汎用バージョンアップ手順書を参照してください。
