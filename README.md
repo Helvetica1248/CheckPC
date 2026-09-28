@@ -6,6 +6,9 @@ CheckPC が収集した Windows 初動調査データ（CAB/TXT）を、ロー�
 
 ## リポジトリ構成
 
+- `pipeline/` — v3.71-rc16 を基準とする公開用コード・テスト・必要資源
+- `docs/releases/v3.71/SOURCE_IMPORT.json` — 元candidateと公開ソースのファイル別対応・検証
+
 - `DESIGN.md` — v3.71 の現行設計と安全境界
 - `CHANGELOG.md` — v3.71 正式化と主要変更履歴
 - `INSTALL.md` — 配置・更新の入口
@@ -59,3 +62,29 @@ GitHub 取り込み前に clean extraction で package manifest と focused regr
 - 正式更新はコードと EnvironmentFile を stable symlink でセット切替し、rollback 可能性を維持
 
 詳細は `DESIGN.md` と汎用バージョンアップ手順書を参照してください。
+
+
+## 開発用ソースの取り込み（2026-09-28）
+
+`pipeline/` に元candidateのPythonコード146ファイルと必要資源11ファイルを取り込みました。独立した `SHA256SUMS.txt` を含め、158ファイルです。
+
+解析・判定・検索等の実装ロジックは変更していません。公開用の処理として、実端末名・収集日時・実ユーザー名に由来するテスト識別子、コメント、docstring、環境固有の文書表記を匿名化しました。157入力ファイルのうち133は元candidateとバイト一致し、24はこの匿名化による差分です。runtime Pythonはコメント・docstringを除くASTが一致し、テストの変更はfixture識別子に限られます。個別の元SHA・公開SHA・確認方法は `SOURCE_IMPORT.json` に記録しています。
+
+元ZIPと公開ソースは異なるpackage identityです。元ZIPのSHA、当時のrelease metadata、正式リリース判断は変更していません。公開ソースには過去の実機ログ・調査結果・旧release manifestを含めず、取り込み時に過去のPASS記録を生成・転用していません。
+
+ソース整合性はリポジトリrootから次で確認できます。
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 pipeline/package_integrity.py pipeline
+```
+
+開発依存はリポジトリrootの仮想環境へ導入してください。`pipeline/` 内に仮想環境や成果物を作ると、未登録ファイルとして整合性検査に失敗します。
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r pipeline/requirements.lock
+```
+
+実データ専用の5テストは保持していますが、fixture本体は含めていません。実行には同じ公開用host/date/user識別子へ正規化した非公開fixtureが必要です。元の実データを無変換で指定して合格することは保証しません。通常の合成fixtureテストとは区別して扱います。
+
+今回確認したのはファイル対応・AST・package integrityです。依存が不足する実行環境のため、既存focused 460件のPASSは再確認していません。`verify_release_package.py` は旧candidate一式の資料・実機証跡も検査するため、この公開ソース集合の検証には使いません。今後の配布・正式昇格には、その時点の実際の試験結果を用いたpackage作成が必要です。

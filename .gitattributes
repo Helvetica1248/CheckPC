@@ -1,0 +1,2 @@
+# Preserve package bytes and SHA256SUMS across Windows/Linux checkouts.
+pipeline/** -text

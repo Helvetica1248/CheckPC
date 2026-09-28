@@ -1,0 +1,18 @@
+CheckPC 解析パイプライン v3.70 — 配置・検証入口
+=================================================
+
+本ファイルは入口のみです。base117への移行・実機検証は、同梱の
+「v3.70_実機CLI検証手順.md」を最初から順番に実施してください。
+
+重要:
+- v3.69正式版を上書きしない。
+- v3.70は /opt/llm/checkpc_pipeline_v3.70 へ新規展開する。
+- コード /opt/llm/analysis-current と env /opt/llm/checkpc-pipeline-current.env をセットで切り替える。
+- requirements.lockがv3.69と同一なら、本番venvへpip installしない。
+- 実データテストはCHECKPC_TEST_*環境変数を使用し、/home/claude互換fixtureを作成しない。
+- 正式アクセスURLは https://checkpc.example.invalid/ 。
+- 4mode comparison gate、release-mode SKIP=0、v3.69 rollback実測前に運用切替しない。
+
+リバースプロキシ運用:
+- リバースプロキシで公開する場合は、前段認証、TLS終端、アクセス制御を必須とする。
+- proxy経由の外部公開はpipelineのloopback判定だけでは保護できない。
