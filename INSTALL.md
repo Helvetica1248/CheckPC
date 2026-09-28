@@ -28,3 +28,10 @@ rollback先を確認してから切り替える
 candidate 内の `RELEASE_STATUS=validation-pending` は候補固定時点の値であり、候補 artifact の SHA と監査証跡を維持するため GitHub 整理時には書き換えない。正式リリース状態は `docs/releases/v3.71/RELEASE_NOTES.md` を参照する。
 
 環境固有の URL、秘密値、認証 hash、VT API key、proxy credential はこの repository へ記録しない。
+
+
+## Git上の開発用ソース
+
+実装とテストは `pipeline/` にあります。公開前の識別子匿名化と資料選別により、元candidate ZIPとは別のpackage identityを持ちます。取り込み内容・整合性確認・開発用依存導入はrootの `README.md` の「開発用ソースの取り込み」を参照してください。
+
+元candidateの配布・実機への切替と、Git上の開発ソースの取得は別工程です。この取り込みで実機への配備や正式昇格を行ったことにはなりません。

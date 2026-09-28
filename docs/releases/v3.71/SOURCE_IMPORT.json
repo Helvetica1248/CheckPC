@@ -1,0 +1,1617 @@
+{
+  "source_candidate_zip_sha256": "2d35411c7c0e7715fa63bfe15350152f5289c6580890d9ef86f4b30ea8f22227",
+  "selection": {
+    "python_files": 146,
+    "runtime_assets": [
+      "DESIGN.md",
+      "GUI_USER_GUIDE.md",
+      "INSTALL.txt",
+      "checkpc-pipeline.env.example",
+      "context_template.yaml",
+      "master_filepath_whitelist.txt",
+      "pyproject.toml",
+      "requirements.lock",
+      "requirements.txt",
+      "start_services.sh",
+      "system_concept.svg"
+    ]
+  },
+  "files": [
+    {
+      "path": "DESIGN.md",
+      "source_sha256": "ddf65d291e5cdafc3df581726f021dfed9d298bb11a02e39ecae2b9c8c4d24d0",
+      "git_sha256": "5781d7be4ac0b363e91a435d7bc9135a587b0d83d433fc5a7aad800299e63cb7",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "GUI_USER_GUIDE.md",
+      "source_sha256": "a4fe2b9a87368117f5d5bc2a8387f994e0bdc24e3e19a3f4a5386327dd01ef50",
+      "git_sha256": "a4fe2b9a87368117f5d5bc2a8387f994e0bdc24e3e19a3f4a5386327dd01ef50",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "INSTALL.txt",
+      "source_sha256": "e08b019eed3af243081e6f06b084d5ac8a42fdca0c5a10865b2514043abf8234",
+      "git_sha256": "23d0591a852a1b43853e419f1548a5dfd36ec37533b5cbdab56cd9fd304acb03",
+      "changed": true,
+      "reasons": [
+        "Replaced an environment-specific service access URL with a documentation example."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "analyze_section.py",
+      "source_sha256": "862996a0505755181b7b53b876bafce1bbf6de3ecfb74680becef682aafc727a",
+      "git_sha256": "9232b8244828f7b00c17e7a1e174ae80bfd7eef11a2c0bb52097bb286b189ee3",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "archive_manager.py",
+      "source_sha256": "78814af26623166f864ab4064853fe034a48ea3f8ae3c9e942aa23da39c13610",
+      "git_sha256": "78814af26623166f864ab4064853fe034a48ea3f8ae3c9e942aa23da39c13610",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "atomic_io.py",
+      "source_sha256": "b72b3a96de909b2bb1719dccc54bc7a6ee907e6df5a01809f21f775c1feb854d",
+      "git_sha256": "b72b3a96de909b2bb1719dccc54bc7a6ee907e6df5a01809f21f775c1feb854d",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "batch_dashboard.py",
+      "source_sha256": "5368c36543c6e90c9bb4aefb152d4444178384945de1688d82e3a2be2b699e00",
+      "git_sha256": "5368c36543c6e90c9bb4aefb152d4444178384945de1688d82e3a2be2b699e00",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "budget_profile.py",
+      "source_sha256": "71a689190f17f65035dae6a84106d91e2d147337e1747c664de92cc6ce38fa6d",
+      "git_sha256": "71a689190f17f65035dae6a84106d91e2d147337e1747c664de92cc6ce38fa6d",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "build_reproducibility_bundle.py",
+      "source_sha256": "af06f56f7de1bf25f38caef5faeed3ee3b2583789c2d87be93018ddf3be679e4",
+      "git_sha256": "af06f56f7de1bf25f38caef5faeed3ee3b2583789c2d87be93018ddf3be679e4",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "calibrate_budget.py",
+      "source_sha256": "a2a93f1c6b88a205f8cd83bf46754b41cfcdc7f0798f4038578a72cf68beac0f",
+      "git_sha256": "a2a93f1c6b88a205f8cd83bf46754b41cfcdc7f0798f4038578a72cf68beac0f",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "chat_investigation.py",
+      "source_sha256": "8ab3f2d7504dbcad5d89f9779fd4d499ec368fbff7f2d327d0fb1a952e61f84e",
+      "git_sha256": "8ab3f2d7504dbcad5d89f9779fd4d499ec368fbff7f2d327d0fb1a952e61f84e",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "chat_lv2.py",
+      "source_sha256": "b33b1916991c3de8447c017d4c350c13399adbdd2ddeac206fb3cd3a33e4a787",
+      "git_sha256": "b33b1916991c3de8447c017d4c350c13399adbdd2ddeac206fb3cd3a33e4a787",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "chat_tools.py",
+      "source_sha256": "41638161e92306522ecef80fbf74069d34b38120c71f107fc47eea50275eb507",
+      "git_sha256": "41638161e92306522ecef80fbf74069d34b38120c71f107fc47eea50275eb507",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "checkpc-pipeline.env.example",
+      "source_sha256": "42060bd3993806edf8e5583d675bd297fd6c8baec26e0ab8675c048040287998",
+      "git_sha256": "42060bd3993806edf8e5583d675bd297fd6c8baec26e0ab8675c048040287998",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "collector_profile.py",
+      "source_sha256": "228a1538db6d56b30b5a7c85187fcf9d57d6a2ef6682dbea7a13e89df9fce1d3",
+      "git_sha256": "228a1538db6d56b30b5a7c85187fcf9d57d6a2ef6682dbea7a13e89df9fce1d3",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "compare_analyzed.py",
+      "source_sha256": "dabd722b088738fbba5f70a36f421cc3a8ba421f140f03719100cd2099b9df08",
+      "git_sha256": "dabd722b088738fbba5f70a36f421cc3a8ba421f140f03719100cd2099b9df08",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "compare_runs.py",
+      "source_sha256": "d91be5ee56d43ac5edf7911e23c7c904d2c6f84aed69b78b2c60638b6e891e36",
+      "git_sha256": "d91be5ee56d43ac5edf7911e23c7c904d2c6f84aed69b78b2c60638b6e891e36",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "comparison_approval.py",
+      "source_sha256": "56671773a7bb6e8184b56d0cd4a07bc9937a77f6c53103c64d2445f0286cb93a",
+      "git_sha256": "56671773a7bb6e8184b56d0cd4a07bc9937a77f6c53103c64d2445f0286cb93a",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "comparison_provenance.py",
+      "source_sha256": "5b606c57ef99b8836bad4d342f9b188074dbc208d2fc34000eb5d26860990d39",
+      "git_sha256": "5b606c57ef99b8836bad4d342f9b188074dbc208d2fc34000eb5d26860990d39",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "comparison_release_gate.py",
+      "source_sha256": "428ba5f292ebbf01170657cd228d482df20fbbf1b40e48968904fe2283a9bd51",
+      "git_sha256": "428ba5f292ebbf01170657cd228d482df20fbbf1b40e48968904fe2283a9bd51",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "context_template.yaml",
+      "source_sha256": "8853d5d12db10b8ee64c1a8b3117f8e6ca4bab9a7fc1ccdee7bc4c2cae4e851a",
+      "git_sha256": "8853d5d12db10b8ee64c1a8b3117f8e6ca4bab9a7fc1ccdee7bc4c2cae4e851a",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "correlate.py",
+      "source_sha256": "dae2dbba58e31de070b05559c1ceec31582378ecd2326b021d79c6752fb5448a",
+      "git_sha256": "dae2dbba58e31de070b05559c1ceec31582378ecd2326b021d79c6752fb5448a",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "defender_dir_report.py",
+      "source_sha256": "6a1ea9d2e4b245c726ac1190869b39a0260542497a7631aa6cb77bdff1715b98",
+      "git_sha256": "8f25c4e55110667dc1f876b376f643e8bc645111f307a7d70a61b9ef8427f73e",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "depth2_select.py",
+      "source_sha256": "711b884badf45989e3f209dfb2555c3861805dfa0b6b8e400528e2001bd566ae",
+      "git_sha256": "711b884badf45989e3f209dfb2555c3861805dfa0b6b8e400528e2001bd566ae",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "directory_index.py",
+      "source_sha256": "27236c6adcc64b55bf9d7ea56c46cf9d91b3958a06c9541eff3c60ad5fef196b",
+      "git_sha256": "27236c6adcc64b55bf9d7ea56c46cf9d91b3958a06c9541eff3c60ad5fef196b",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "directory_policy.py",
+      "source_sha256": "fcd4cc2d037b51e3b7e05ab66f0aad986c686f2c724fe6013a53cf2c812b8636",
+      "git_sha256": "fcd4cc2d037b51e3b7e05ab66f0aad986c686f2c724fe6013a53cf2c812b8636",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "evidence_meta.py",
+      "source_sha256": "ac546814a1f077efd7dee4560754fa18cff02ec90a494b930767dffcbec27c95",
+      "git_sha256": "ac546814a1f077efd7dee4560754fa18cff02ec90a494b930767dffcbec27c95",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "filepath_whitelist.py",
+      "source_sha256": "98806edb0c4d1ce9e5a2159b92ae86a196405d5582e86f5bb7f1139feb32f2b4",
+      "git_sha256": "98806edb0c4d1ce9e5a2159b92ae86a196405d5582e86f5bb7f1139feb32f2b4",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "generate_release_manifest.py",
+      "source_sha256": "2918eb414f82a51933bfd97ccbd9ecbc5d48d197bf7a4deb5d198071e6ffe09a",
+      "git_sha256": "2918eb414f82a51933bfd97ccbd9ecbc5d48d197bf7a4deb5d198071e6ffe09a",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "inference_gate.py",
+      "source_sha256": "dbe0dac9bf87ec2f38c15be54476f03a0eee0156944f54b96c33d43d21baee36",
+      "git_sha256": "dbe0dac9bf87ec2f38c15be54476f03a0eee0156944f54b96c33d43d21baee36",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "ingest_manifest.py",
+      "source_sha256": "a4aa48f9360edaf34a5ab085c808b6662cc3c2deb3ffa907b4a0f40382b9d3e0",
+      "git_sha256": "a4aa48f9360edaf34a5ab085c808b6662cc3c2deb3ffa907b4a0f40382b9d3e0",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "ioc_utils.py",
+      "source_sha256": "3a67065395d3a33be3ef9f2b1e5c84fe4a290af8f0cc4fdfc26bda984ccbe5b5",
+      "git_sha256": "3a67065395d3a33be3ef9f2b1e5c84fe4a290af8f0cc4fdfc26bda984ccbe5b5",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "known_infra.py",
+      "source_sha256": "47ebf3d13d414a4982a7c7bb94169f5b138d77c1931267883e5b2df052016528",
+      "git_sha256": "47ebf3d13d414a4982a7c7bb94169f5b138d77c1931267883e5b2df052016528",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "legacy_py2/RecentFileCacheParser.py",
+      "source_sha256": "a2fbcfeb0caeb666f9b8928a061a2db8e88970f68f899f45a4a5dad8736a842e",
+      "git_sha256": "a2fbcfeb0caeb666f9b8928a061a2db8e88970f68f899f45a4a5dad8736a842e",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "unchanged_bytes_legacy_python2"
+    },
+    {
+      "path": "legacy_py2/ReplaceFilePathFromCheckPC.py",
+      "source_sha256": "c1538f8ea308b0328c52d9faee4e1d96a421687b726c09aed05f276d64cf95a9",
+      "git_sha256": "c1538f8ea308b0328c52d9faee4e1d96a421687b726c09aed05f276d64cf95a9",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "unchanged_bytes_legacy_python2"
+    },
+    {
+      "path": "legacy_py2/ShimCacheParser.py",
+      "source_sha256": "26810ddf73a185ccf9560dc4d5cf697d84cedad81aa2a8a01d19b3c91523b860",
+      "git_sha256": "26810ddf73a185ccf9560dc4d5cf697d84cedad81aa2a8a01d19b3c91523b860",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "unchanged_bytes_legacy_python2"
+    },
+    {
+      "path": "legacy_py2/UserAssist.py",
+      "source_sha256": "89a28466d0377565d8e864a918574177c145f17f1e4d1a907a00922b4411ef76",
+      "git_sha256": "89a28466d0377565d8e864a918574177c145f17f1e4d1a907a00922b4411ef76",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "unchanged_bytes_legacy_python2"
+    },
+    {
+      "path": "legacy_py2/exbat.py",
+      "source_sha256": "45ba964a3cbbf8286faa49b33cf9fd08a1fdbbc608e304c684677ae0a0050d6e",
+      "git_sha256": "45ba964a3cbbf8286faa49b33cf9fd08a1fdbbc608e304c684677ae0a0050d6e",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "unchanged_bytes_legacy_python2"
+    },
+    {
+      "path": "legacy_py2/exsummary.py",
+      "source_sha256": "81075b9f484e5f38cd836daf54d9f82bc5428994dd3805c3153b95af14518939",
+      "git_sha256": "81075b9f484e5f38cd836daf54d9f82bc5428994dd3805c3153b95af14518939",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "unchanged_bytes_legacy_python2"
+    },
+    {
+      "path": "llm_runtime.py",
+      "source_sha256": "379c3198480fcc73357955a07b53289cb944d943c908db89b047d2c514411fcb",
+      "git_sha256": "379c3198480fcc73357955a07b53289cb944d943c908db89b047d2c514411fcb",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "make_password_hash.py",
+      "source_sha256": "91927fce478b42e0c07a6593612e8c557f11f923d50bd97373d620e16ea46a80",
+      "git_sha256": "91927fce478b42e0c07a6593612e8c557f11f923d50bd97373d620e16ea46a80",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "master_filepath_whitelist.txt",
+      "source_sha256": "3d88adc27f1c8ee26f4629388aac0fc8d273c3ac59b695093e23bc0ecd9af284",
+      "git_sha256": "3d88adc27f1c8ee26f4629388aac0fc8d273c3ac59b695093e23bc0ecd9af284",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "package_integrity.py",
+      "source_sha256": "3ef179f535762835fe32499590dceabb622a90437f80a01f364cd8e5ead2854d",
+      "git_sha256": "3ef179f535762835fe32499590dceabb622a90437f80a01f364cd8e5ead2854d",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "parse_checkpc.py",
+      "source_sha256": "ac02a83c4666a9abc80d8a491e6a2ccb870d2009bb90215259127aa6bdf95082",
+      "git_sha256": "927232168fd2c1d6824be5e07fca8d909fb98f7496b179f6a7a3903ca6ad990f",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "path_safety.py",
+      "source_sha256": "67719ea08db44eaa840200f5d5123010332393031a4a5e63c2bbc52c2f1cd97e",
+      "git_sha256": "67719ea08db44eaa840200f5d5123010332393031a4a5e63c2bbc52c2f1cd97e",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "pdf_export.py",
+      "source_sha256": "2d125b46105ae99f1a041a9ad518b6f424808534d02891be8338401aabee926b",
+      "git_sha256": "2d125b46105ae99f1a041a9ad518b6f424808534d02891be8338401aabee926b",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "pipeline_doctor.py",
+      "source_sha256": "50374c3ef8d4337a35a64d6c6cf50c60677888817d48765c3e02c63bb9cdcb92",
+      "git_sha256": "50374c3ef8d4337a35a64d6c6cf50c60677888817d48765c3e02c63bb9cdcb92",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "pipeline_errors.py",
+      "source_sha256": "89be311ccdf31447090e393814e8955d703362df9b46572672953d5690647d8e",
+      "git_sha256": "89be311ccdf31447090e393814e8955d703362df9b46572672953d5690647d8e",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "pipeline_settings.py",
+      "source_sha256": "bf08e46057a37aca6eabf7aa57df002d2e4d5b3f538e7fcba221d7e686230703",
+      "git_sha256": "bf08e46057a37aca6eabf7aa57df002d2e4d5b3f538e7fcba221d7e686230703",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "promote_to_formal.py",
+      "source_sha256": "a650bd8fdd07564698fc3ba066251ffccc54c133183cdf7ff6e3a98228da3796",
+      "git_sha256": "a650bd8fdd07564698fc3ba066251ffccc54c133183cdf7ff6e3a98228da3796",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "prompt_safety.py",
+      "source_sha256": "f4c41577bc3761aa84862103dab355c39dd4253959f9a260f3aa439d795b9c1c",
+      "git_sha256": "f4c41577bc3761aa84862103dab355c39dd4253959f9a260f3aa439d795b9c1c",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "provenance.py",
+      "source_sha256": "1de1cb875b8287b5791fabdefa7fcec7a1c7494409d90198e2e775b883b46888",
+      "git_sha256": "1de1cb875b8287b5791fabdefa7fcec7a1c7494409d90198e2e775b883b46888",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "pyproject.toml",
+      "source_sha256": "2a2cf51c66829d36a6c9c46a1653db1ff0e32445202a05efd536c06cbc8c0944",
+      "git_sha256": "2a2cf51c66829d36a6c9c46a1653db1ff0e32445202a05efd536c06cbc8c0944",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "release_check_ids.py",
+      "source_sha256": "58f684af035b117f2caf0d74143664e0b896e2c10781e2d098844507a9f26f01",
+      "git_sha256": "58f684af035b117f2caf0d74143664e0b896e2c10781e2d098844507a9f26f01",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "report_gen.py",
+      "source_sha256": "8b693f183a9046d951598331b8c6286648018cde8f134c88edefd0404d5d020e",
+      "git_sha256": "aab8f1695bf7331c80c578fd9aa9ca3e65e0255faababd3761e8bb3b50343f2a",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "requirements.lock",
+      "source_sha256": "e5ba71cad5c0fefb7d3e6d31e1854845748cd7ee6e936493c39c7dd809b0e790",
+      "git_sha256": "e5ba71cad5c0fefb7d3e6d31e1854845748cd7ee6e936493c39c7dd809b0e790",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "requirements.txt",
+      "source_sha256": "7b5a0023146850a6eb74a1ddcd4a99bd5a10955130bc2907a4390032e37090c9",
+      "git_sha256": "7b5a0023146850a6eb74a1ddcd4a99bd5a10955130bc2907a4390032e37090c9",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "run_all_tests.py",
+      "source_sha256": "a168c23f1c1cf828ae87d4653258d49f8c0f81bb7a8d9b0975da9861add7023b",
+      "git_sha256": "c646bddecbfa3605c95bd1f83d1782784efc73e43fe9c547305c34809a6cefa8",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "run_analysis.py",
+      "source_sha256": "2cc4ce26a8f1567a1ff35aa324d15497579086c0123fff7dc5e14bae8b1958bc",
+      "git_sha256": "f4da4829dcad8c9609d908e8226919a9c30ad54bfc9d13c813bfc2be95e9fd4c",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures.",
+        "Replaced collection timestamps associated with anonymized source-case fixtures."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "runtime_identity.py",
+      "source_sha256": "b567c41b42bc155b5d1fa1daa30fc9756928b9bc220e88a4c1ac3c5692d8bc4d",
+      "git_sha256": "b567c41b42bc155b5d1fa1daa30fc9756928b9bc220e88a4c1ac3c5692d8bc4d",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "section_prompts.py",
+      "source_sha256": "ff3476df58c82849659262e7be26c3ca5863e64ffe6883f8d2fc8e0a4848eee0",
+      "git_sha256": "981c201373df8e2045c57f2028534eaa132b30bc4a6d1b40fecdba1cb9ddc331",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "server.py",
+      "source_sha256": "5cd0a24f8c7115b79ee1b064c6c079077a5e37fdec7736a93e695ed710fe91f6",
+      "git_sha256": "5cd0a24f8c7115b79ee1b064c6c079077a5e37fdec7736a93e695ed710fe91f6",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "source_id.py",
+      "source_sha256": "d167966f9fb7c833d9e1bbd11ff87168df36ca1e44a28cf648fc318147383e57",
+      "git_sha256": "d167966f9fb7c833d9e1bbd11ff87168df36ca1e44a28cf648fc318147383e57",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "start_services.sh",
+      "source_sha256": "c1516417f247f85b0b4e928f6c70d08574ae867a80b68c6ca672a764f709f019",
+      "git_sha256": "c1516417f247f85b0b4e928f6c70d08574ae867a80b68c6ca672a764f709f019",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "system_concept.svg",
+      "source_sha256": "20b4b7339fb3ca25997c3780739456755e0b1b977a3e990c86f32e75172fa546",
+      "git_sha256": "20b4b7339fb3ca25997c3780739456755e0b1b977a3e990c86f32e75172fa546",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": null
+    },
+    {
+      "path": "test_chat_tools.py",
+      "source_sha256": "887a58faca2cec0694d674afe61501d6130ff1a0fbe8b3cb025f10b74cad1024",
+      "git_sha256": "887a58faca2cec0694d674afe61501d6130ff1a0fbe8b3cb025f10b74cad1024",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_chat_tools_realdata.py",
+      "source_sha256": "14646cf0374633b2f7d6b4435cb58a5e63725c204bfb673cad9040eef7ec2d08",
+      "git_sha256": "6909df32bd5e801b341aa2ac3698884082fc4a2e2aa91398fe94d28ce769874d",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures.",
+        "Replaced collection timestamps associated with anonymized source-case fixtures."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_chunk_retry_dirsig.py",
+      "source_sha256": "8bfa12ea03d3818b7ea1756c906ea0052dd5f999ed0f9e0744a39ee9b9e88c8c",
+      "git_sha256": "03e075383498c669f7809e4be67c35e3f4a4a068c33b1d1fc975b736205be670",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_defender_dates.py",
+      "source_sha256": "81885df9dc3004c7bf9edddb7d249774e1f609e34a83d53689402b0946fe36e2",
+      "git_sha256": "81885df9dc3004c7bf9edddb7d249774e1f609e34a83d53689402b0946fe36e2",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_dir_doubleext.py",
+      "source_sha256": "b457e390062c9e77eea5836f991abe28c7d6999fc019d4fd4b9d469a6c41296c",
+      "git_sha256": "b457e390062c9e77eea5836f991abe28c7d6999fc019d4fd4b9d469a6c41296c",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_filepath_whitelist.py",
+      "source_sha256": "5ebb65dfce13a67bd74ffb639bdca1d83511a4c085bb483f75f7e239714391eb",
+      "git_sha256": "5ebb65dfce13a67bd74ffb639bdca1d83511a4c085bb483f75f7e239714391eb",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_integration_ttl4_ttl5.py",
+      "source_sha256": "9b0a2a7582dcad76c5f424848e13555b1c9e6cfc7a55f42bad478d5431edef26",
+      "git_sha256": "06106805d6d0e69448ad586c1a5f3bcaf044adeacd2726145eb0258b0e1a092a",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_p3_lean_output.py",
+      "source_sha256": "4bde4616695bca8d7b8f71cb6abf00f9d9cc5f65f270e89c1fd7354f74f787d8",
+      "git_sha256": "4bde4616695bca8d7b8f71cb6abf00f9d9cc5f65f270e89c1fd7354f74f787d8",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_pipeline.py",
+      "source_sha256": "78d8475e2d4f493464c30836f049ebfcb9bab145cfb72e67b7492e11fa368a1a",
+      "git_sha256": "b89d032457539d47a496130ab3b89219313b21a25e2bc20febdacad0a7aa863c",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures.",
+        "Anonymized a source-profile path component in test fixture strings.",
+        "Kept the fixture owner field and its expected value consistent with the anonymized profile path."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_report_fallback.py",
+      "source_sha256": "b3eb03c80a52cb804209a7588359fb2cdc2df8ffe169cd3041a3f5966d62d328",
+      "git_sha256": "9ea7151bb188dc667b0af6cce3624c9dcba4e06281bb5f6e87712aca45cd31de",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_server_chat_integration.py",
+      "source_sha256": "1d9d96051db2dbda9f02dfdbce911d0ec751fd683b3cdf51cd5bb7eee6fc0be6",
+      "git_sha256": "1d9d96051db2dbda9f02dfdbce911d0ec751fd683b3cdf51cd5bb7eee6fc0be6",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_shim_netstat.py",
+      "source_sha256": "df07e906740115656a47139a183350a211414b97456e1332b16b4a6bae423dc9",
+      "git_sha256": "283ce236f4a2277f257f2ccc3f31073e6e8d4e9c64a0b5cd462d25e2f3990e58",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_timeline_fixes.py",
+      "source_sha256": "f50a94a455cacf5578a7d6010c33a61640c50f1fb05b663e90b8dcabff807cc0",
+      "git_sha256": "fe5b2920fe4ea517f79eca2b06831fd5de715d55d6dc6d97f965f70fb4dcb0fb",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_v361_fixes.py",
+      "source_sha256": "2cff504bcc99cb538d7db0d65d0e5a61cbaef32973756f0f88a5b56b48461ae8",
+      "git_sha256": "923e3fb7f4e046053d09691fbe7710cbf119f5c962aaa23d3bec2b4814c762f8",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v364_floor.py",
+      "source_sha256": "e53bfea13c55937b55da62baed1f5569ec9162913f39c460334d2a0eadce18de",
+      "git_sha256": "a14e9a32c6c18056c20a15881c2eb30e20213e38e78e67125a8e563d579a8cb1",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures.",
+        "Anonymized a source-profile path component in test fixture strings."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_v365_fixes.py",
+      "source_sha256": "7e9cd267dc438a73f694b7a9f7bb778b69a011a95ac82408963cb8b690965942",
+      "git_sha256": "7e9cd267dc438a73f694b7a9f7bb778b69a011a95ac82408963cb8b690965942",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v366_fixes.py",
+      "source_sha256": "411f47c4ccffd18e2bcec38d60e08d2ad35f861c30fce70d9511477d04a3d888",
+      "git_sha256": "c2358dd90aa38eb3ace50ad04a062f83f98fb83edfe3d764e143652f84081c2e",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v367_pdf.py",
+      "source_sha256": "c6f8d11a073da1a598c3a5b609f1476470cc09a299c9e2eb79e700b798e7e094",
+      "git_sha256": "c6f8d11a073da1a598c3a5b609f1476470cc09a299c9e2eb79e700b798e7e094",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v367rev1_gui_help.py",
+      "source_sha256": "e1cfd0a32aa4686550b13e5882fb123aa1445eb11665f6891980eb4f192a97ed",
+      "git_sha256": "e1cfd0a32aa4686550b13e5882fb123aa1445eb11665f6891980eb4f192a97ed",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v368_chunk_budget.py",
+      "source_sha256": "c7e7bb3537fd7a7828e1914f942f4c46662d58975c22e8059a5004055f3cfaee",
+      "git_sha256": "c7e7bb3537fd7a7828e1914f942f4c46662d58975c22e8059a5004055f3cfaee",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v368_correlate_order.py",
+      "source_sha256": "99ad4187daaa0525656cc9b05ebd2562c477fb14d72eb1b43aab44b61180aac2",
+      "git_sha256": "99ad4187daaa0525656cc9b05ebd2562c477fb14d72eb1b43aab44b61180aac2",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v368_coverage.py",
+      "source_sha256": "025abe07f618204f8dc7168b3ae4891903e5fcfc31e783216549421f6178e783",
+      "git_sha256": "025abe07f618204f8dc7168b3ae4891903e5fcfc31e783216549421f6178e783",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v368_ioc_utils.py",
+      "source_sha256": "235316df1fc5c37b6cd7f81fbeb03e0555c0b31cec663bfad8f1efc8ea256660",
+      "git_sha256": "235316df1fc5c37b6cd7f81fbeb03e0555c0b31cec663bfad8f1efc8ea256660",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v368_select_entries.py",
+      "source_sha256": "671f5a9ad71a8edf6cbdaae424624896bec1fbb666782422fd796ca660a4c235",
+      "git_sha256": "671f5a9ad71a8edf6cbdaae424624896bec1fbb666782422fd796ca660a4c235",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v368rc2_integration.py",
+      "source_sha256": "042e04b66f9681c6756ef25852573fe4a7d8b29ebba90e68a55a660e419b3365",
+      "git_sha256": "042e04b66f9681c6756ef25852573fe4a7d8b29ebba90e68a55a660e419b3365",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_core.py",
+      "source_sha256": "42f47ee7cb7d5fa6dc3ece363bc147a98592a9ac20bd676ea7ac7a1639e65495",
+      "git_sha256": "42f47ee7cb7d5fa6dc3ece363bc147a98592a9ac20bd676ea7ac7a1639e65495",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc10_review.py",
+      "source_sha256": "d131c6f5d4d2e911b4a3334db6401c37f34be2c92bc8fe202317ba88d4635322",
+      "git_sha256": "d131c6f5d4d2e911b4a3334db6401c37f34be2c92bc8fe202317ba88d4635322",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc11_review.py",
+      "source_sha256": "9d949c5af9d9b644a1f6c4e5f591e7e21e01daa65d28940e3e05bf9e4daa9756",
+      "git_sha256": "9d949c5af9d9b644a1f6c4e5f591e7e21e01daa65d28940e3e05bf9e4daa9756",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc12_review.py",
+      "source_sha256": "95217fc433abf526faee119b8a71760fdf6846b560e3e347e919cdf16ade543a",
+      "git_sha256": "95217fc433abf526faee119b8a71760fdf6846b560e3e347e919cdf16ade543a",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc13_review.py",
+      "source_sha256": "a3cab3e566cdde15613d1344667b811f60c2337c8667796717188e92aee89b0f",
+      "git_sha256": "a3cab3e566cdde15613d1344667b811f60c2337c8667796717188e92aee89b0f",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc14_review.py",
+      "source_sha256": "0389dc426b1ddbe3794d671f606ed1e2fcc487e2045c38b036367038abd6f11e",
+      "git_sha256": "0389dc426b1ddbe3794d671f606ed1e2fcc487e2045c38b036367038abd6f11e",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc15_review.py",
+      "source_sha256": "ba00ee09a421207f603c833710a16401b3171d177535a38b9ac8ed4c621ac981",
+      "git_sha256": "ba00ee09a421207f603c833710a16401b3171d177535a38b9ac8ed4c621ac981",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc16_review.py",
+      "source_sha256": "f24ed7f11439b2c28f13ca8ee2c91513e8224e38c944daf3f118014d2a4dc32a",
+      "git_sha256": "6af5d6ccc1290d7afbf78011bf7333d992646e5d3e70265393547b678d896cd9",
+      "changed": true,
+      "reasons": [
+        "Anonymized a source-profile path component in test fixture strings."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_v369_rc17_review.py",
+      "source_sha256": "b082f04c6c3ece35f73730414f1cd1a4869672591fa282b714e11395b8b85547",
+      "git_sha256": "f24efe2477e65fd9cb18be70125245624fe6779c31bcba095dd35336a817b090",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures.",
+        "Anonymized a source-profile path component in test fixture strings."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_v369_rc18_review.py",
+      "source_sha256": "84725e05b0eaf96391dcaf9fc888296a156154652586f724fb58db772239be6d",
+      "git_sha256": "84725e05b0eaf96391dcaf9fc888296a156154652586f724fb58db772239be6d",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc19_review.py",
+      "source_sha256": "f9604cfd2375a8d97f13f3e325b2250694acbc7a7a275136f78dcfa3606164ac",
+      "git_sha256": "f9604cfd2375a8d97f13f3e325b2250694acbc7a7a275136f78dcfa3606164ac",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc20_review.py",
+      "source_sha256": "b122661c0ec0b07b9e632f311d3880ed94007ffcfd830dda32c7664c39665848",
+      "git_sha256": "b122661c0ec0b07b9e632f311d3880ed94007ffcfd830dda32c7664c39665848",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc21_review.py",
+      "source_sha256": "236cc9e579abc14593d0d84daff75accf2b444a2551fb98f7cfd34b8dfd1e72e",
+      "git_sha256": "236cc9e579abc14593d0d84daff75accf2b444a2551fb98f7cfd34b8dfd1e72e",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc22_review.py",
+      "source_sha256": "65a30cc93c9581c28f06584a5f874db27a628c3856cdb21892293dd97bceddae",
+      "git_sha256": "65a30cc93c9581c28f06584a5f874db27a628c3856cdb21892293dd97bceddae",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc23_review.py",
+      "source_sha256": "48966522563c855062dd2ef91b762b55531f8a62dc857928dace254912b5d857",
+      "git_sha256": "2aff04d225f2ea6ba45472eab05af8f07236b3d98d71c1a9ba83fff5c08e95c0",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_v369_rc24_review.py",
+      "source_sha256": "8f4d87dc7337aa2d5c39f71a3ccfd83f091b8dba7da745db8a880279e4e83765",
+      "git_sha256": "57980e9d20b32f49a72ccf91f97e5716af3df7e6db79951b6cb8062df2aaa6b6",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "test_v369_rc25_review.py",
+      "source_sha256": "b04a5e8d20b54b7842b1677b739821cc278268c087e8a12d7aae0b0ef44536b2",
+      "git_sha256": "b04a5e8d20b54b7842b1677b739821cc278268c087e8a12d7aae0b0ef44536b2",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc26_review.py",
+      "source_sha256": "526e4f2d2deb97d772ba01146f9a76885fcad1632cbb65f6b66a8388de23aaa0",
+      "git_sha256": "526e4f2d2deb97d772ba01146f9a76885fcad1632cbb65f6b66a8388de23aaa0",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc27_review.py",
+      "source_sha256": "5bb31c520ae90ace272d508d2470740927a63e09282e049e9e6d2c0afb051126",
+      "git_sha256": "5bb31c520ae90ace272d508d2470740927a63e09282e049e9e6d2c0afb051126",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc28_review.py",
+      "source_sha256": "c57cedacf24d04ef397b207aa3c166472f21faa0b0bc50bbb36db7d3f7f42b9b",
+      "git_sha256": "c57cedacf24d04ef397b207aa3c166472f21faa0b0bc50bbb36db7d3f7f42b9b",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc29_review.py",
+      "source_sha256": "202ab85413fb16887dfad7b06f66594c2c7c606bc7ef3becde731996d90f4fed",
+      "git_sha256": "202ab85413fb16887dfad7b06f66594c2c7c606bc7ef3becde731996d90f4fed",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc30_vbe_policy.py",
+      "source_sha256": "9cc0a22cd92616b0f41ce21cce55084aeab6d31cd1a90ba0a6b8ce38b5b28af9",
+      "git_sha256": "9cc0a22cd92616b0f41ce21cce55084aeab6d31cd1a90ba0a6b8ce38b5b28af9",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc3_concurrency.py",
+      "source_sha256": "510e59e6a2730a99363a6bfa9d81f89470eed5514d2f519c37bd48d916b8c050",
+      "git_sha256": "510e59e6a2730a99363a6bfa9d81f89470eed5514d2f519c37bd48d916b8c050",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc3_llm_faults.py",
+      "source_sha256": "b727f4746967ac5984a197049554789ef393649a649e5b165f3313a602bb7fc2",
+      "git_sha256": "b727f4746967ac5984a197049554789ef393649a649e5b165f3313a602bb7fc2",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc3_review.py",
+      "source_sha256": "a47918ff3358995306cc7b21d3a077b78508eb7c054c00801fbb2751b51489e6",
+      "git_sha256": "a47918ff3358995306cc7b21d3a077b78508eb7c054c00801fbb2751b51489e6",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc3_security.py",
+      "source_sha256": "4372f0c495ad304c246f896c8aede0fcc2f2a6155fab55eb21100398131d9b5c",
+      "git_sha256": "4372f0c495ad304c246f896c8aede0fcc2f2a6155fab55eb21100398131d9b5c",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc3_unit_without_realdata.py",
+      "source_sha256": "eb8f62c041f72d4da83d32217005455b7c246832d7a01b3fe773176cb22e2f09",
+      "git_sha256": "eb8f62c041f72d4da83d32217005455b7c246832d7a01b3fe773176cb22e2f09",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc4_review.py",
+      "source_sha256": "8e977a7675059b6cb9e95e750c1c2d80e58a24d8555268eb72ab856e5e1d91b3",
+      "git_sha256": "8e977a7675059b6cb9e95e750c1c2d80e58a24d8555268eb72ab856e5e1d91b3",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc6_review.py",
+      "source_sha256": "0cbcd180a56b228b558c2b5173416733f427cf8454f6f8d40b749428c33b6ad3",
+      "git_sha256": "0cbcd180a56b228b558c2b5173416733f427cf8454f6f8d40b749428c33b6ad3",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc7_performance.py",
+      "source_sha256": "1b5c9b0602e4df626e39196533e0b66f97ae82efe677131697f55b33dba6e7e7",
+      "git_sha256": "1b5c9b0602e4df626e39196533e0b66f97ae82efe677131697f55b33dba6e7e7",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc8_archive.py",
+      "source_sha256": "496f478a9c01e5a7520b8114e10d9ac170317ff7adaa89e961d172b1d4d64e46",
+      "git_sha256": "496f478a9c01e5a7520b8114e10d9ac170317ff7adaa89e961d172b1d4d64e46",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v369_rc8_fixes.py",
+      "source_sha256": "418905d87602318d8f1ff7a8c83aeb9b28019502d297f1ee33d16b1bbf0e16a7",
+      "git_sha256": "418905d87602318d8f1ff7a8c83aeb9b28019502d297f1ee33d16b1bbf0e16a7",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_cross_version_derived_fields.py",
+      "source_sha256": "aca1b1f9a1448ea4252b280f71eb651498c204c764312ff444ea82d720e1a20f",
+      "git_sha256": "aca1b1f9a1448ea4252b280f71eb651498c204c764312ff444ea82d720e1a20f",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_deferred_details_gui.py",
+      "source_sha256": "41e665095a7465f3fd4b70c11fc2d8fcd5468c217d4ff413ea2721cf132a1732",
+      "git_sha256": "41e665095a7465f3fd4b70c11fc2d8fcd5468c217d4ff413ea2721cf132a1732",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_directory_evidence.py",
+      "source_sha256": "a2dffee9f10afe2af85e4ec3f3ea7e76a39a9c53fdc9a6b49a69e40f49411833",
+      "git_sha256": "a2dffee9f10afe2af85e4ec3f3ea7e76a39a9c53fdc9a6b49a69e40f49411833",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_directory_scoped_chat.py",
+      "source_sha256": "5b117e333d25e13f16325b736921bef57286b0e9eeee4255ebefac7401d6bc51",
+      "git_sha256": "5b117e333d25e13f16325b736921bef57286b0e9eeee4255ebefac7401d6bc51",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_formal_inheritance.py",
+      "source_sha256": "c410618a87c4970becfc876978be75ae5ae0d0a3c02ba6de73b11a99d148eb89",
+      "git_sha256": "c410618a87c4970becfc876978be75ae5ae0d0a3c02ba6de73b11a99d148eb89",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_gui_polling_state.py",
+      "source_sha256": "a24564a8e6224088ff30dcd33a279b0dddabc7daad7fbade385439b230d488ab",
+      "git_sha256": "a24564a8e6224088ff30dcd33a279b0dddabc7daad7fbade385439b230d488ab",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_promotion_gate_binding.py",
+      "source_sha256": "580e5e7a551955e1ebc642b3faca2fe327b84716a1e2da33ccbca20323031a77",
+      "git_sha256": "580e5e7a551955e1ebc642b3faca2fe327b84716a1e2da33ccbca20323031a77",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_rev10_comparison_evidence.py",
+      "source_sha256": "4513c36a360181119283dc56087a225caa42e23204a260c518999d4d9aed2f12",
+      "git_sha256": "4513c36a360181119283dc56087a225caa42e23204a260c518999d4d9aed2f12",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_rev10_task140_order.py",
+      "source_sha256": "25e68bbe0e0d877c0e5f527c954d4ecd92d9336f92c424a6892c1f73f6c8c22f",
+      "git_sha256": "25e68bbe0e0d877c0e5f527c954d4ecd92d9336f92c424a6892c1f73f6c8c22f",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_rev11_package_identity_binding.py",
+      "source_sha256": "b90b494e0caf8f0146dfe3654673722e99b3bde1e8d6441ba0f3622fede620cc",
+      "git_sha256": "b90b494e0caf8f0146dfe3654673722e99b3bde1e8d6441ba0f3622fede620cc",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_rev12_lineage_gui.py",
+      "source_sha256": "cbfe73de5921f1cde128b11eb0f384075fae1362ada54699622a619eba93b343",
+      "git_sha256": "cbfe73de5921f1cde128b11eb0f384075fae1362ada54699622a619eba93b343",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_rev13_singleton_binding.py",
+      "source_sha256": "7efd7ecab756cd67e9c07fea2f92ab0006192a3a612cbb53d7097fbe068ee336",
+      "git_sha256": "7efd7ecab756cd67e9c07fea2f92ab0006192a3a612cbb53d7097fbe068ee336",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_rev14_depth_comparison.py",
+      "source_sha256": "41e05dc923ec98a7820bb2d063db0c66a1f4f00b4af54a91b40ceb1ec6ebc8f9",
+      "git_sha256": "41e05dc923ec98a7820bb2d063db0c66a1f4f00b4af54a91b40ceb1ec6ebc8f9",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_rev7_weekday_task140.py",
+      "source_sha256": "432dbbdaeec19f485f9554ef2958a9288a765d2ee376409105a0cf6fcc26d470",
+      "git_sha256": "432dbbdaeec19f485f9554ef2958a9288a765d2ee376409105a0cf6fcc26d470",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_rev8_task140_binding.py",
+      "source_sha256": "5868982f9a6f5e25fa72b9bbb8588a2c5f02f86b3bedbfaeb263232ec1240cac",
+      "git_sha256": "5868982f9a6f5e25fa72b9bbb8588a2c5f02f86b3bedbfaeb263232ec1240cac",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_rev9_task140_binding.py",
+      "source_sha256": "3d8b45d2c01ef7738c92b23d14023bb4cbce686a2323b37a6f7d75bddb104031",
+      "git_sha256": "3d8b45d2c01ef7738c92b23d14023bb4cbce686a2323b37a6f7d75bddb104031",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v370_review_evidence_digest.py",
+      "source_sha256": "d5677165ef048ed75bccc7d751db266fa5a9d457c4eca1141030471611141b80",
+      "git_sha256": "d5677165ef048ed75bccc7d751db266fa5a9d457c4eca1141030471611141b80",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_v371_chat_ti_redesign.py",
+      "source_sha256": "08816fa59cccff978f80b5c2d3f39dce2c324f7b70b248c6cf3acc6ef35d96d0",
+      "git_sha256": "08816fa59cccff978f80b5c2d3f39dce2c324f7b70b248c6cf3acc6ef35d96d0",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "test_vt_downgrade.py",
+      "source_sha256": "fe61d05a641d5c8ade61c73b79d3d84c58bfb17ca53b01afb4bd16ea43b88119",
+      "git_sha256": "50e893c020ac7b9c984cadce0f5fd677dab1b9958246d330a646dd1f5fb8c668",
+      "changed": true,
+      "reasons": [
+        "Anonymized source-case host identifiers in comments/docstrings or test fixtures."
+      ],
+      "ast_verification": "identical_structure_except_fixture_string_values"
+    },
+    {
+      "path": "timeline.py",
+      "source_sha256": "b93bf28a4514e0af3bdfe33b0f6170e481f9437fcedac8ce9e2185a5789c5fbd",
+      "git_sha256": "b93bf28a4514e0af3bdfe33b0f6170e481f9437fcedac8ce9e2185a5789c5fbd",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "token_budget.py",
+      "source_sha256": "1acd07e25617ab7219e9d6a3615ba056f783d8fd9a758cf1e19ef05eb2cbe889",
+      "git_sha256": "1acd07e25617ab7219e9d6a3615ba056f783d8fd9a758cf1e19ef05eb2cbe889",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "validate_binding_smoke.py",
+      "source_sha256": "04d8546aded830f4a3e21604ce44375b5488d9c4a0fbe6840e3d6f033d49d115",
+      "git_sha256": "04d8546aded830f4a3e21604ce44375b5488d9c4a0fbe6840e3d6f033d49d115",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "validate_rev10_realdata.py",
+      "source_sha256": "cc4cd2d9b20a00950c8b6035c7a2527849cde925ba6846a475ad8f7a287404fb",
+      "git_sha256": "cc4cd2d9b20a00950c8b6035c7a2527849cde925ba6846a475ad8f7a287404fb",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "validate_rev11_realdata.py",
+      "source_sha256": "6bbcd080c5d74f0b29ff4fd45b2b720f505459932b806efa5a4bc67edd312c24",
+      "git_sha256": "6bbcd080c5d74f0b29ff4fd45b2b720f505459932b806efa5a4bc67edd312c24",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "validate_rev12_realdata.py",
+      "source_sha256": "e59037443b297e576256b1102cd31e537d43977d45f0a991f4525944db75e5fd",
+      "git_sha256": "e59037443b297e576256b1102cd31e537d43977d45f0a991f4525944db75e5fd",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "validate_rev7_realdata.py",
+      "source_sha256": "8dc7c34483f70e4a88ab6a57424a02703bbc596cdfaf3a2700ad6948a2a0fc46",
+      "git_sha256": "8dc7c34483f70e4a88ab6a57424a02703bbc596cdfaf3a2700ad6948a2a0fc46",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "validate_rev8_realdata.py",
+      "source_sha256": "f0d1f41aa81d2f0ec125347dbdd77508d775cac51c789cc74c8e427a5e0e5735",
+      "git_sha256": "f0d1f41aa81d2f0ec125347dbdd77508d775cac51c789cc74c8e427a5e0e5735",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "validate_rev9_realdata.py",
+      "source_sha256": "29ff7e5f36e93bae63d4258f07594503ab65ca912f194f02dc9f0be88d35cf70",
+      "git_sha256": "29ff7e5f36e93bae63d4258f07594503ab65ca912f194f02dc9f0be88d35cf70",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "validate_run_provenance.py",
+      "source_sha256": "4ebc01c5a6a1552974f2933342f7ef1d9263402ad58c3af6ed0464eb1fcc4fff",
+      "git_sha256": "4ebc01c5a6a1552974f2933342f7ef1d9263402ad58c3af6ed0464eb1fcc4fff",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "validate_semantic_binding.py",
+      "source_sha256": "71cb14092b48c8b22b114077c376b044916219607884f05c03b64dd22737e885",
+      "git_sha256": "71cb14092b48c8b22b114077c376b044916219607884f05c03b64dd22737e885",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "verify_analysis_runtime_unchanged.py",
+      "source_sha256": "6840a2cb82bcf0bb252c1c781920e4d19976dc5f3ea8c29b622b338618d44a02",
+      "git_sha256": "6840a2cb82bcf0bb252c1c781920e4d19976dc5f3ea8c29b622b338618d44a02",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "verify_ingest_manifest.py",
+      "source_sha256": "f55c941c83688938b81c01a5be6c89b5c93590ce9d239bfdbe5661ca90d241f9",
+      "git_sha256": "f55c941c83688938b81c01a5be6c89b5c93590ce9d239bfdbe5661ca90d241f9",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "verify_release_package.py",
+      "source_sha256": "e3b764966dce532f68129e92f238a0ec34c18f15d8938594fabacc23f75895c5",
+      "git_sha256": "e3b764966dce532f68129e92f238a0ec34c18f15d8938594fabacc23f75895c5",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "version.py",
+      "source_sha256": "e1b3a9a69ee7bba587ed0001a576ee81b5dadbab9f46061e9727a09be05cb0c1",
+      "git_sha256": "e1b3a9a69ee7bba587ed0001a576ee81b5dadbab9f46061e9727a09be05cb0c1",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    },
+    {
+      "path": "vt_post.py",
+      "source_sha256": "87eb8c80e42e8dfa792803fc064cf203011956c443f187715b19ca4e039062b4",
+      "git_sha256": "87eb8c80e42e8dfa792803fc064cf203011956c443f187715b19ca4e039062b4",
+      "changed": false,
+      "reasons": [
+        "Copied byte-for-byte from the approved source candidate."
+      ],
+      "ast_verification": "identical_without_docstrings"
+    }
+  ],
+  "privacy_summary": {
+    "anonymized_host_identifiers": 11,
+    "anonymized_collection_timestamps": 6,
+    "anonymized_profile_components": 2
+  },
+  "scope": "Functional runtime code unchanged; public import has independent checksums after limited identifier anonymization. Historical logs, reports and original release manifests were not imported.",
+  "git_source_snapshot": {
+    "directory": "pipeline",
+    "files_including_checksum": 158,
+    "checksum_manifest": "pipeline/SHA256SUMS.txt",
+    "checksum_sha256": "c852ef0676ec9fd7e3a50f3dc42be4d06ebff2a69ae6341bd806985a551b9a7f",
+    "package_integrity_valid": true,
+    "checked_files": 157,
+    "python3_syntax_files": 140,
+    "runtime_ast_matches_without_docstrings": 64,
+    "original_candidate_modified": false,
+    "focused_regression_reconfirmed": false,
+    "focused_regression_limitation": "requests/fastapi missing in audit environment; no claim of 460 PASS for this import"
+  },
+  "excluded_material": "Historical release/validation reports, execution logs, old patches, original release_manifest/test_results, original candidate checksums; no raw private corpus is included."
+}
