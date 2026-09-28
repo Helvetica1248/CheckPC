@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Runtime / validation output
+jobs/
+output/
+validation/
+evidence/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
